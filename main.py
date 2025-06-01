@@ -49,7 +49,7 @@ def main():
             if kolcsonzo.lemond(rendszam, datum):
                 print("Sikeres lemondás.")
             else:
-                print("Hiba: Nem található ilyen bérlés.")
+                print("Nem található ilyen bérlés.")
 
         elif choice == "4":
             print("Kilépés...")
